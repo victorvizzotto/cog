@@ -1,0 +1,11 @@
+cog predict r8.im/stability-ai/stable-diffusion@sha256:be04660a5b93ef2aff61e3668dedb4cbeb14941e62a3fd5998364a32d613e35e \
+  -i prompt=... \
+  -i width=... \
+  -i height=... \
+  -i init_image=@path/to/file \
+  -i mask=@path/to/file \
+  -i prompt_strength=... \
+  -i num_outputs=... \
+  -i num_inference_steps=... \
+  -i guidance_scale=... \
+  -i seed=... 
